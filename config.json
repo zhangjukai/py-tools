@@ -1,0 +1,11 @@
+{
+    "kafka": {
+        "bootstrap_servers": ["10.142.11.45:9092,10.142.11.46:9092,10.142.11.47:9092,10.142.11.48:9092,10.142.11.49:9092"],
+        "topic": "1653c36da7dd4bffbc02a034969e1bec_history",
+        "group_id": "table_counter_group"
+    },
+    "logging": {
+        "level": "INFO",
+        "format": "%(asctime)s - %(levelname)s - %(message)s"
+    }
+}
